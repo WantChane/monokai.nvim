@@ -118,6 +118,35 @@ M.ristretto = {
   diff_text = '#23324d',
 }
 
+M.pro_spectrum = {
+  name = 'monokai_pro_spectrum',
+  base0 = '#191515',
+  base1 = '#222222',
+  base2 = '#222222',
+  base3 = '#2d2c2d',
+  base4 = '#383839',
+  base5 = '#69676c',
+  base6 = '#8c8384',
+  base7 = '#c3b7b8',
+  base8 = '#fff1f3',
+  border = '#A1B5B1',
+  brown = '#352e2e',
+  white = '#fff1f3',
+  grey = '#72696a',
+  black = '#000000',
+  pink = '#FF6188',
+  green = '#7bd88f',
+  aqua = '#5ad4e6',
+  yellow = '#fce566',
+  orange = '#fd9353',
+  purple = '#948ae3',
+  red = '#fd6883',
+  diff_add = '#7bd88f',
+  diff_remove = '#fc618d',
+  diff_change = '#fd9353',
+  diff_text = '#23324d',
+}
+
 local function remove_italics(config, colors)
   if not config.italics and colors.style == 'italic' then
     colors.style = nil
